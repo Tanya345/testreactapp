@@ -1,0 +1,16 @@
+Errors/Warnings
+1=> SingleListItem is not defined
+2 => setSelectedIndex is not a function
+3 => a unique key should be there for each child when iterating through map
+4 => dont call proptypes diectly
+5 => items props is marked as required but its valude is null
+6 => cannot read properties of null(in 'map')
+7 => invalid proptype as isSelected expected to be a boolean but found a function
+8 =>  Invalid prop isSelected of type number supplied to expected boolean
+9 => Cannot update WrappedListComponent while rendering a different WrappedSingleListItem because onClickHandler in singleListItem is called directly instead of giving a reference of that function there or instead of calling it with arrow function.
+
+Working => WrappedSingleListItem
+=> It simply resonsible for rendering and handling each list item (1 at a time)
+
+Working => WrappedListComponent 
+=> It simply responsible for iterating through all list items and send data of each list item to singleListItem component.
